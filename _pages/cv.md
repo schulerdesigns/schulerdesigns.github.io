@@ -1,6 +1,6 @@
 ---
-title: CV
-subtitle: Duet is a beautiful Jekyll portfolio theme designed to showcase your work in style. Perfect for designers, artists, photographers and developers to use for their portfolio website.
+title: Matthew Schuler
+subtitle: 3D Prop Artist
 description: Duet is a beautiful Jekyll portfolio theme.
 featured_image: /images/demo/demo-landscape.jpg
 ---
