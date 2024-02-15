@@ -1,5 +1,5 @@
 ---
-title: CV
+title: Resume
 subtitle: 3D Prop Artist
 description: Duet is a beautiful Jekyll portfolio theme.
 featured_image: /images/demo/demo-landscape.jpg
