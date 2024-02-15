@@ -20,7 +20,7 @@ menu_settings:
 footer_settings:
   logo_image: 
   logo_width: 200
-  footer_tagline: I am a 3D modeling student at Purdue University.
+  footer_tagline: A 3D modeling student at Purdue University.
 
 grid_settings:
   overlay_opacity: 0.8
