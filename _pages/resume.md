@@ -1,9 +1,10 @@
 ---
 title: Resume
-subtitle: 
-description: 
-featured_image: 
+subtitle:
+description:
+featured_image:
 ---
+
 ### Projects
 
 
