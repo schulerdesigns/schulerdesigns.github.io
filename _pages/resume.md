@@ -1,10 +1,9 @@
 ---
 title: Resume
-subtitle: Matthew Schuler
-description: Duet is a beautiful Jekyll portfolio theme.
+subtitle: 
+description: 
 featured_image: 
 ---
-
 ### Projects
 
 
