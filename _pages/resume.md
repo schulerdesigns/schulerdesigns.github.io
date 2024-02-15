@@ -2,33 +2,59 @@
 title: Resume
 subtitle: 3D Prop Artist
 description: Duet is a beautiful Jekyll portfolio theme.
-featured_image: /images/demo/demo-landscape.jpg
+featured_image: 
 ---
 
-![](/images/demo/demo-landscape.jpg)
+## Projects
 
-## Features
 
-We've packed Duet full of powerful features to help showcase your work:
+#### Rapier Model
 
-* Beautiful, minimal design
-* Two-column masonry grid layout
-* Responsive – works perfectly on all devices
-* Portfolio post type
-* Blog with pagination
-* Sleek Ajax navigation and page transitions
-* Unique 'gallery' feature for image grids and carousels
-* Built-in contact form with Formspree integration
-* Full markdown support and code highlighting
-* Social media icons
-* Fast page rendering
-* Built with SEO best practices in mind
-* Customize everything – colors, spacing, fonts, sizes etc. – via a simple settings file
-* Works with GitHub Pages
-* Updated and supported by the developers
+* Created realistic 3D model and materials based on reference images
+* Demonstrated industry standard modeling practice in topology, UV packing, and polycount
+* Sought and applied critique from industry professionals to ensure quality of final product
 
-## Get Duet
 
-Duet is created and supported by [Jekyll Themes](https://jekyllthemes.io), and is available for $49.
+#### Hook, Line, and Axe
 
-<a href="https://jekyllthemes.io/theme/duet-portfolio-jekyll-theme" class="button button--large">Get This Theme</a>
+* Created game-ready models within a production timeline
+* Developed within a sprint-based schedule for timely production of assets
+* Collaborated with modelers and other members of production pipeline
+* Assisted in aesthetic development of game
+* Provided critique for and received critique from other project members
+
+
+#### spungy.mp4
+
+* Created an original short film using a blend of real footage and 3D animation
+* Developed 3D models and textures for use in film.
+* Used and became familiar with motion capture, greenscreen, and microphone technologies.
+* Edited and chroma-keyed video within a short timeframe.
+* Assisted with development of script and camera shots.
+* Solved the issue of the transfer of multiple file types across various 3D software
+
+
+
+
+## Skills
+
+* Hard surface modeling and UV layout in Autodesk Maya
+* Procedural texture creation/application using Adobe Substance suite
+* Digital sculpting and retopology using ZBrush
+* Rendering and environment assembly in Unreal Engine 5
+* Obtaining and processing photo scans for model and texture creation.
+* Proficiency with Adobe Creative Suite 
+
+
+
+
+## Education
+
+
+#### Purdue University, West Lafayette
+
+
+####
+
+
+## Employment
