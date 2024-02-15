@@ -1,8 +1,5 @@
 ---
 title: Resume
-subtitle:
-description:
-featured_image:
 ---
 
 ### Projects
