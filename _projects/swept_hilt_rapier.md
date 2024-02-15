@@ -12,5 +12,13 @@ featured_image: '/images/swept-hilt-rapier/swept-hilt-rapier-main.png'
 	</iframe> 
 </div>
 
-## Demo content
+
+## Render collection
+
+<div class="gallery" data-columns="1">
+	<img src="/images/swept-hilt-rapier/SHR_render_1.png">
+	<img src="/images/swept-hilt-rapier/SHR_render_2.png">
+	<img src="/images/swept-hilt-rapier/SHR_render_3.png">
+	<img src="/images/swept-hilt-rapier/SHR_render_4.png">
+</div>
 
