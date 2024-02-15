@@ -53,10 +53,8 @@ featured_image:
 
 ##### Purdue University, West Lafayette
 
-*August 2021–Present*
-
-Bachelor of Science: Animation & Visual Effects Compositing
-
+*August 2021–Present* \\
+Bachelor of Science: Animation & Visual Effects Compositing \\
 GPA: 3.98 
 
 
@@ -71,13 +69,11 @@ GPA: 3.98
 
 #### Kelley Automotive
 
-*May–August 2023*
-
+*May–August 2023* \\
 Car Wash Attendant 
 
 
 #### Kroger
 
-*May–August 2022*
-
+*May–August 2022* \\
 Deli Clerk
