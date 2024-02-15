@@ -1,6 +1,6 @@
 ---
 title: 'Swept Hilt Rapier'
-subtitle: 'The rapier was the principal civilian sidearm throughout the sixteenth and seventeenth centuries. Designed for cut-and-thrust fencing of progressively complex techniques, the rapier is characterized by a double-edged blade with an acute point and an elaborate guard for the hand. The guards, usually of iron or steel, were subject to a variety of embellishment. They were engraved, chiseled, gilded, damascened, and encrusted in gold and silver in keeping with fashionable styles. (From the MET)'
+subtitle: 'A fashionable civilian sidearm'
 date: 2024-02-15 00:00:00
 description: 
 featured_image: '/images/swept-hilt-rapier/swept-hilt-rapier-main.png'
