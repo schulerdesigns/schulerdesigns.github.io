@@ -1,11 +1,11 @@
 ---
 title: Resume
-subtitle: 3D Prop Artist
+subtitle: Matthew Schuler
 description: Duet is a beautiful Jekyll portfolio theme.
 featured_image: 
 ---
 
-## Projects
+### Projects
 
 
 #### Rapier Model
@@ -36,7 +36,7 @@ featured_image:
 
 
 
-## Skills
+### Skills
 
 * Hard surface modeling and UV layout in Autodesk Maya
 * Procedural texture creation/application using Adobe Substance suite
@@ -48,13 +48,18 @@ featured_image:
 
 
 
-## Education
+### Education
 
 
 #### Purdue University, West Lafayette
 
+Pursuing Bachelor of Science: Animation & Visual Effects Compositing 
+GPA: 3.98 
 
-####
+
+#### Homestead High School, Fort Wayne, IN
 
 
-## Employment
+
+
+### Employment
