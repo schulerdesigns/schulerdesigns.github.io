@@ -1,18 +1,21 @@
 ---
 title: Resume
+subtitle: Matthew Schuler
+description:
+featured_image: 
 ---
 
 ### Projects
 
 
-#### Rapier Model
+##### Rapier Model
 
 * Created realistic 3D model and materials based on reference images
 * Demonstrated industry standard modeling practice in topology, UV packing, and polycount
 * Sought and applied critique from industry professionals to ensure quality of final product
 
 
-#### Hook, Line, and Axe
+##### Hook, Line, and Axe
 
 * Created game-ready models within a production timeline
 * Developed within a sprint-based schedule for timely production of assets
@@ -21,7 +24,7 @@ title: Resume
 * Provided critique for and received critique from other project members
 
 
-#### spungy.mp4
+##### spungy.mp4
 
 * Created an original short film using a blend of real footage and 3D animation
 * Developed 3D models and textures for use in film.
@@ -48,13 +51,13 @@ title: Resume
 ### Education
 
 
-#### Purdue University, West Lafayette
+##### Purdue University, West Lafayette
 
 Pursuing Bachelor of Science: Animation & Visual Effects Compositing 
 GPA: 3.98 
 
 
-#### Homestead High School, Fort Wayne, IN
+##### Homestead High School, Fort Wayne, IN
 
 
 
