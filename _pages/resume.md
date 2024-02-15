@@ -53,12 +53,16 @@ featured_image:
 
 ##### Purdue University, West Lafayette
 
-Pursuing Bachelor of Science: Animation & Visual Effects Compositing 
+August 2021—Present
+
+Bachelor of Science: Animation & Visual Effects Compositing
+
 GPA: 3.98 
 
 
 ##### Homestead High School, Fort Wayne, IN
 
+August 2017—May 2021
 
 
 
