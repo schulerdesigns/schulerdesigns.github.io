@@ -53,7 +53,7 @@ featured_image:
 
 ##### Purdue University, West Lafayette
 
-August 2021—Present
+*August 2021–Present*
 
 Bachelor of Science: Animation & Visual Effects Compositing
 
@@ -62,8 +62,22 @@ GPA: 3.98
 
 ##### Homestead High School, Fort Wayne, IN
 
-August 2017—May 2021
+*August 2017—May 2021*
 
 
 
 ### Employment
+
+
+#### Kelley Automotive
+
+*May–August 2023*
+
+Car Wash Attendant 
+
+
+#### Kroger
+
+*May–August 2022*
+
+Deli Clerk
