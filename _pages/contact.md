@@ -5,6 +5,4 @@ description: Duet is a beautiful Jekyll portfolio theme.
 featured_image: /images/demo/demo-landscape.jpg
 ---
 
-# Email: mattschuler3d@gmail.com
-
-# Phone: +1 (260) 445-5092
+{% include contact-form.html %}
