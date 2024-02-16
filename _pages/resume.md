@@ -80,7 +80,7 @@ Car Wash Attendant
 Deli Clerk
 
 
-<p style="color:white;">WHITE SPACE</p>
+<p style="color:white;">.</p>
 
 
 <a href="https://example.com/" class="button button--large">Download</a>
