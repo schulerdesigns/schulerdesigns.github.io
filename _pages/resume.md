@@ -5,7 +5,6 @@ description:
 featured_image: 
 ---
 
-<a href="https://example.com/" class="button button--large">Download</a>
 
 ### Projects
 
@@ -79,3 +78,7 @@ Car Wash Attendant
 
 *May–August 2022* \\
 Deli Clerk
+
+
+<a href="https://example.com/" class="button button--large">Download</a>
+
