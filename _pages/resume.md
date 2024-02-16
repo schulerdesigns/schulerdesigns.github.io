@@ -77,7 +77,7 @@ Car Wash Attendant
 #### Kroger
 
 *May–August 2022* \\
-Deli Clerk
+Deli Clerk \\
 
 
 <a href="https://example.com/" class="button button--large">Download</a>
