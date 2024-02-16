@@ -1,9 +1,11 @@
 ---
 title: Resume
-subtitle: Matthew Schuler
+subtitle: Last updated February, 2024
 description:
 featured_image: 
 ---
+
+<a href="https://example.com/" class="button button--large">Download</a>
 
 ### Projects
 
