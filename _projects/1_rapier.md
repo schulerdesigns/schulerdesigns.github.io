@@ -32,8 +32,8 @@ featured_image: '/images/rapier/SHR_main.png'
 ## Model statistics
 
 <code>
-<span style="color: #F5B373">13948</span> triangles
-<span style="color: #F5B373">1</span> texture set
-<span style="color: #F5B373">82%</span> UV space usage
+<span style="color: #F5B373">13948</span> triangles <br/>
+<span style="color: #F5B373">1</span> texture set <br/>
+<span style="color: #F5B373">82%</span> UV space usage <br/>
 <span style="color: #F5B373">4096 x 2048</span> texture resolution
 </code>
