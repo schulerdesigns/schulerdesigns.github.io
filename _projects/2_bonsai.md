@@ -35,7 +35,7 @@ The scene uses an HDRI image, two box lights, and one directional light to achie
 	<img src="/images/bonsai/bonsai_texture_1.png">
 </div>
 
-Subsurface scattering in the leaf textures allows for a realistic look when combined with the lighting [^1].
+Subsurface scattering in the leaf textures allows for a realistic look when combined with the lighting.[^1]
 
 <div class="gallery" data-columns="2">
 	<img src="/images/bonsai/bonsai_texture_2.png">
