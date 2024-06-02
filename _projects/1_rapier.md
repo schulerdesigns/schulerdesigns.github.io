@@ -6,13 +6,9 @@ description:
 featured_image: '/images/rapier/SHR_main.png'
 ---
 
-# Sketchfab
+--- 
 
 ## Sketchfab 
-
-### Sketchfab
-
-#### Sketchfab
 
 <div class="sketchfab-embed-wrapper" style="display: flex; flex-direction: row; align-items: center; justify-content: center; width: 100vw; height: 90vh;"> 
 	<iframe title="Swept Hilt Rapier" width="90%" height="100%" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/f0042ddc9745491b9df40f72f1c7888d/embed?dnt=1"> 
@@ -32,10 +28,10 @@ featured_image: '/images/rapier/SHR_main.png'
 
 > Model statistics: 
 >
-> - 13948 triangles
-> - 1 texture set
-> - 82% UV space usage
-> - 4096 x 2048 texture resolution
+> 13948 triangles
+> 1 texture set
+> 82% UV space usage
+> 4096 x 2048 texture resolution
 
 ```
 Model statstics: 
