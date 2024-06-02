@@ -36,9 +36,7 @@ The scene uses an HDRI image, two box lights, and one directional light to achie
 </div>
 
 Subsurface scattering in the leaf textures allows for a realistic look when combined with the lighting.
-
 Leave textures downloaded from [3D Scanned European Beech Tree Leaves Atlas 02 (textures.com)](https://www.textures.com/download/3DAtlas0364/136884)
-
 Flower textures downloaded from [​3D Scanned Magnolia Atlas (textures.com)](https://www.textures.com/download/3DAtlas0033/133343)
 
 <div class="gallery" data-columns="2">
