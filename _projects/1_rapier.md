@@ -56,4 +56,19 @@ Images: (1) Final render (2) Normals (3) Roughness (4) Wireframe
 
 
 
+<br/>
 
+## Other
+
+### UV layout
+
+<div class="gallery" data-columns="1">
+	<img src="/images/rapier/SHR_UV_layout.png">
+</div>
+
+
+### UV layout
+
+<div class="gallery" data-columns="1">
+	<img src="/images/rapier/SHR_reference_sheet.png">
+</div>
