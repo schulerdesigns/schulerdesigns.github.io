@@ -32,7 +32,7 @@ The scene uses an HDRI image, two box lights, and one directional light to achie
 ## Texture showcase
 
 <div class="gallery" data-columns="1">
-	<img src="/images/bonsai/texture_1.png">
+	<img src="/images/bonsai/bonsai_texture_1.png">
 </div>
 
 Subsurface scattering in the leaf textures allows for a realistic look when combined with the lighting.
@@ -47,5 +47,5 @@ Flower textures downloaded from ![​3D Scanned Magnolia Atlas (textures.com)](h
 Photo scanned textures present an unrivaled level of detail. Textures must be baked from a photo-scanned log on to a lower polygon-count mesh for efficient use in baking. From this bake can textures be exported from Agisoft Metashape as basecolor, normal. ambient occlusion, and height maps. A simple translation show below in Substance Designer will allow that scanned texture to be used in a PBR workflow. 
 
 <div class="gallery" data-columns="1">
-	<img src="/images/bonsai/texture_4.png">
+	<img src="/images/bonsai/bonsai_texture_4.png">
 </div>
