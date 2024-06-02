@@ -27,11 +27,13 @@ featured_image: '/images/rapier/SHR_main.png'
 </div>
 
 
+## Map comparison 
+
 ## Model statistics
 
 <code>
 <span style="color: #F5B373">13948</span> triangles
-1 texture set
-82% UV space usage
-4096 x 2048 texture resolution
+<span style="color: #F5B373">1</span> texture set
+<span style="color: #F5B373">82%</span> UV space usage
+<span style="color: #F5B373">4096 x 2048</span> texture resolution
 </code>
