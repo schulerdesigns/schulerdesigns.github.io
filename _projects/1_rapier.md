@@ -3,7 +3,7 @@ title: 'Swept Hilt Rapier'
 subtitle: 'Responsible for all modeling, texturing, and rendering'
 date: 2024-02-15 00:00:00
 description: 
-featured_image: '/images/swept-hilt-rapier/swept-hilt-rapier-main.png'
+featured_image: '/images/rapier/SHR_main.png'
 ---
 
 <div class="sketchfab-embed-wrapper" style="display: flex; flex-direction: row; align-items: center; justify-content: center; width: 100vw; height: 90vh;"> 
@@ -15,9 +15,9 @@ featured_image: '/images/swept-hilt-rapier/swept-hilt-rapier-main.png'
 ### Render collection
 
 <div class="gallery" data-columns="1">
-	<img src="/images/swept-hilt-rapier/SHR_render_1.png">
-	<img src="/images/swept-hilt-rapier/SHR_render_2.png">
-	<img src="/images/swept-hilt-rapier/SHR_render_3.png">
-	<img src="/images/swept-hilt-rapier/SHR_render_4.png">
+	<img src="/images/rapier/SHR_render_1.png">
+	<img src="/images/rapier/SHR_render_2.png">
+	<img src="/images/rapier/SHR_render_3.png">
+	<img src="/images/rapier/SHR_render_4.png">
 </div>
 
