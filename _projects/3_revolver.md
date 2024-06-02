@@ -1,10 +1,16 @@
 ---
-title: 'Bonsai Tree'
-subtitle: 'Responsible for pot modeling and texturing, tree generation, photogrammetry scan processing, tree texturing, and rendering'
-date: 2024-02-15 00:00:00
+title: "Smith and Wesson Revolver (WIP)"
+subtitle: "Responsible for modeling"
+date: 2024-06-02 00:00:00
 description: 
-featured_image: '/images/bonsai/bonsai-main.jpg'
+featured_image: "/images/revolver/revolver_main.png"
 ---
 
-#### This is a bonsai tree
+## Render collection
 
+<div class="gallery" data-columns="2">
+	<img src="/images/revolver/revolver_1.png">
+	<img src="/images/revolver/revolver_2.png">
+	<img src="/images/revolver/revolver_3.png">
+	<img src="/images/revolver/revolver_4.png">
+</div>
