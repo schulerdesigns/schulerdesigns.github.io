@@ -6,8 +6,6 @@ description:
 featured_image: '/images/rapier/SHR_main.png'
 ---
 
-<hr style="color:#7BC7E0;">
-
 ## Sketchfab 
 
 <br/>
@@ -20,7 +18,7 @@ featured_image: '/images/rapier/SHR_main.png'
 
 ## Render collection
 
-<div class="gallery" data-columns="1">
+<div class="gallery" data-columns="2">
 	<img src="/images/rapier/SHR_render_1.png">
 	<img src="/images/rapier/SHR_render_2.png">
 	<img src="/images/rapier/SHR_render_3.png">
