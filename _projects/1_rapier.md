@@ -1,8 +1,8 @@
 ---
 title: "Swept Hilt Rapier"
-subtitle: "Responsible for all modeling, texturing, and rendering"
+subtitle: "Responsible for modeling, texturing, and rendering"
 date: 2024-06-02 00:00:00
-description: "Made using Autodesk Maya, Maxon ZBrush, Adobe Substance 3D Painter & Designer, Marmoset Toolbag"
+description: 
 featured_image: "/images/rapier/SHR_main.png"
 ---
 
@@ -11,7 +11,7 @@ featured_image: "/images/rapier/SHR_main.png"
 <span style="color: #F5B373">1</span> texture set <br/>
 <span style="color: #F5B373">82%</span> UV space usage <br/>
 <span style="color: #F5B373">4096 x 2048</span> texture resolution <br/>
-<span style="color: #F5B373">7</span> software used
+<span style="color: #F5B373">4</span> software suites used (Maya, ZBrush, Adobe Substance 3D, Marmoset Toolbag)
 </code>
 
 
