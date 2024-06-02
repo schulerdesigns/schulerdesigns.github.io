@@ -11,7 +11,7 @@ featured_image: "/images/rapier/SHR_main.png"
 <span style="color: #F5B373">1</span> texture set <br/>
 <span style="color: #F5B373">82%</span> UV space usage <br/>
 <span style="color: #F5B373">4096 x 2048</span> texture resolution <br/>
-<span style="color: #F5B373">4</span> software suites used (Maya, ZBrush, Adobe Substance 3D, Marmoset Toolbag)
+<span style="color: #F5B373">4</span> software suites used (Maya, ZBrush, Adobe Substance 3D, and Marmoset Toolbag)
 </code>
 
 
