@@ -45,7 +45,14 @@ featured_image: '/images/rapier/SHR_main.png'
 
 <br/>
 
-## Map comparison 
+## Map comparison
+
+<div class="gallery" data-columns="1">
+	<img src="/images/rapier/SHR_map_1.png">
+	<img src="/images/rapier/SHR_map_2.png">
+	<img src="/images/rapier/SHR_map_3.png">
+	<img src="/images/rapier/SHR_map_4.png">
+</div>
 
 
 
