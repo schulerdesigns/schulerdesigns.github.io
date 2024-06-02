@@ -2,7 +2,7 @@
 title: "Swept Hilt Rapier"
 subtitle: "Responsible for all modeling, texturing, and rendering"
 date: 2024-06-02 00:00:00
-description: "Made using Autodesk Maya, Maxon ZBrush, Adobe Substance 3D Painter & Designer, Marmoset Toolbag
+description: "Made using Autodesk Maya, Maxon ZBrush, Adobe Substance 3D Painter & Designer, Marmoset Toolbag"
 featured_image: "/images/rapier/SHR_main.png"
 ---
 
