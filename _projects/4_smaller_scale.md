@@ -21,7 +21,7 @@ featured_image: '/images/smaller_scale/rock.png'
 
 
 
-## Rock 
+## Axe 
 
 <div class="gallery" data-columns="1">
 	<img src="/images/smaller_scale/axe.png">
