@@ -48,4 +48,4 @@ Photo scanned textures present an unrivaled level of detail. Textures must be ba
 	<img src="/images/bonsai/bonsai_texture_4.png">
 </div>
 
-[^1]: Leaf textures downloaded from [3D Scanned European Beech Tree Leaves Atlas 02 (textures.com)](https://www.textures.com/download/3DAtlas0364/136884); flower textures downloaded from [​3D Scanned Magnolia Atlas (textures.com)](https://www.textures.com/download/3DAtlas0033/133343)
+[^1]: Leaf textures downloaded from [3D Scanned European Beech Tree Leaves Atlas 02 (textures.com)](https://www.textures.com/download/3DAtlas0364/136884); flower textures downloaded from [​3D Scanned Magnolia Atlas (textures.com)](https://www.textures.com/download/3DAtlas0033/133343).
