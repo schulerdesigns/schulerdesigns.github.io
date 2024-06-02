@@ -1,6 +1,6 @@
 ---
 title: "Smaller scale"
-subtitle: "​Responsible for modeling, sculpting, and texturing"
+subtitle: "​Responsible for all modeling, sculpting, and texturing"
 date: 2024-06-02 00:00:00
 description: 
 featured_image: '/images/smaller_scale/rock.png'
