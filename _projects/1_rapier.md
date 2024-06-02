@@ -6,8 +6,6 @@ description:
 featured_image: '/images/rapier/SHR_main.png'
 ---
 
-## Model statistics
-
 <code>
 <span style="color: #F5B373">13948</span> triangles <br/>
 <span style="color: #F5B373">1</span> texture set <br/>
@@ -16,8 +14,6 @@ featured_image: '/images/rapier/SHR_main.png'
 </code>
 
 
-
-<br/>
 
 ## Sketchfab 
 
