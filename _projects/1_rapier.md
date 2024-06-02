@@ -47,12 +47,13 @@ featured_image: '/images/rapier/SHR_main.png'
 
 ## Map comparison
 
+Images: (1) Final render (2) Normals (3) Roughness (4) Wireframe
+
 <div class="gallery" data-columns="1">
 	<img src="/images/rapier/SHR_map_1.png">
 	<img src="/images/rapier/SHR_map_2.png">
 	<img src="/images/rapier/SHR_map_3.png">
 	<img src="/images/rapier/SHR_map_4.png">
-	Final render → Normals → Roughness → Wireframe
 </div>
 
 
