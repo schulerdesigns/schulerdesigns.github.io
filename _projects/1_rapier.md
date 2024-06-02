@@ -1,7 +1,7 @@
 ---
 title: 'Swept Hilt Rapier'
 subtitle: 'Responsible for all modeling, texturing, and rendering'
-date: 2024-02-15 00:00:00
+date: 2024-06-02 00:00:00
 description: 
 featured_image: '/images/rapier/SHR_main.png'
 ---
