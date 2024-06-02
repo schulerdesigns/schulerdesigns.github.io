@@ -28,7 +28,7 @@ featured_image: '/images/rapier/SHR_main.png'
 
 ## Model statistics
 
-```
+```R
 13948 triangles
 1 texture set
 82% UV space usage
