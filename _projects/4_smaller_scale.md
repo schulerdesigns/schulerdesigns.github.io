@@ -8,10 +8,12 @@ featured_image: '/images/smaller_scale/rock.png'
 
 <code>
 <span style="color: #F5B373">2</span> projects<br/>
-<span style="color: #F5B373">3</span> software used (Maya, ZBrush, Substance Painter)
+<span style="color: #F5B373">3</span> programs used (Maya, ZBrush, Substance Painter)
 </code>
 
 
+
+<br/>
 
 ## Rock 
 
@@ -20,6 +22,8 @@ featured_image: '/images/smaller_scale/rock.png'
 </div>
 
 
+
+<br/>
 
 ## Axe 
 
