@@ -7,7 +7,7 @@
 .gallery {
 	visibility: hidden;
 	position: relative;
-	max-width: 80%;
+	max-width: 85%;
 	margin: 20px auto;
 
 	@include mq(tabletp) {
