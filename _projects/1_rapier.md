@@ -15,6 +15,7 @@ featured_image: '/images/rapier/SHR_main.png'
 	</iframe> 
 </div>
 
+<br/>
 
 ## Render collection
 
@@ -28,9 +29,9 @@ featured_image: '/images/rapier/SHR_main.png'
 
 ## Model statistics
 
-```R
-13948 triangles
+<code>
+<span style="color: #F5B373">13948</span> triangles
 1 texture set
 82% UV space usage
 4096 x 2048 texture resolution
-```
+</code>
