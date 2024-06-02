@@ -1,6 +1,6 @@
 ---
 title: "Swept Hilt Rapier"
-subtitle: "Responsible for modeling, texturing, and rendering"
+subtitle: "Responsible for all modeling, texturing, and rendering"
 date: 2024-06-02 00:00:00
 description: 
 featured_image: "/images/rapier/SHR_main.png"
@@ -11,7 +11,7 @@ featured_image: "/images/rapier/SHR_main.png"
 <span style="color: #F5B373">1</span> texture set <br/>
 <span style="color: #F5B373">82%</span> UV space usage <br/>
 <span style="color: #F5B373">4096 x 2048</span> texture resolution <br/>
-<span style="color: #F5B373">5</span> programs used (Maya, ZBrush, Substance & Painter, Marmoset Toolbag)
+<span style="color: #F5B373">5</span> programs used (Maya, ZBrush, Substance Designer & Painter, Marmoset Toolbag)
 </code>
 
 

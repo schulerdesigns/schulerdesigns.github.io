@@ -1,6 +1,6 @@
 ---
 title: "Smith and Wesson Revolver (WIP)"
-subtitle: "Responsible for modeling"
+subtitle: "Responsible for all modeling"
 date: 2024-06-02 00:00:00
 description: 
 featured_image: "/images/revolver/revolver_main.png"
@@ -14,3 +14,13 @@ featured_image: "/images/revolver/revolver_main.png"
 	<img src="/images/revolver/revolver_3.png">
 	<img src="/images/revolver/revolver_4.png">
 </div>
+
+
+
+## This project so far
+
+- **Gun reference:** Smith and Wesson .44 Stealth Hunter
+- **Current work:** Refining high poly details and finishing grip
+- **Remaining work:** Low poly pass, bake, texture pass
+- **Important workflows:** Gathering reference, sub-division surface modeling for gun frame, sculpting for grip
+​
