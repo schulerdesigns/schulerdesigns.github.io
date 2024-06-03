@@ -18,7 +18,7 @@ menu_settings:
 footer_settings:
   logo_image: 
   logo_width: 200
-  footer_tagline: Hard surface modeler
+  footer_tagline: Hard surface artist
 
 grid_settings:
   overlay_opacity: 0.8
