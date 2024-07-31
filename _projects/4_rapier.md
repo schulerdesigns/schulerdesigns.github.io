@@ -6,15 +6,6 @@ description:
 featured_image: "/images/rapier/SHR_main.png"
 ---
 
-<code>
-<span style="color: #F5B373">13948</span> triangles <br/>
-<span style="color: #F5B373">1</span> texture set <br/>
-<span style="color: #F5B373">82%</span> UV space usage <br/>
-<span style="color: #F5B373">4096 x 2048</span> texture resolution <br/>
-<span style="color: #F5B373">5</span> programs used (Maya, ZBrush, Substance Designer & Painter, Marmoset Toolbag)
-</code>
-
-
 
 <br/>
 
@@ -55,7 +46,13 @@ Images: (1) Final render (2) Normals (3) Roughness (4) Wireframe
 	<img src="/images/rapier/SHR_map_4.png">
 </div>
 
-
+<code>
+<span style="color: #F5B373">13948</span> triangles <br/>
+<span style="color: #F5B373">1</span> texture set <br/>
+<span style="color: #F5B373">82%</span> UV space usage <br/>
+<span style="color: #F5B373">4096 x 2048</span> texture resolution <br/>
+<span style="color: #F5B373">5</span> programs used (Maya, ZBrush, Substance Designer & Painter, Marmoset Toolbag)
+</code>
 
 <br/>
 
@@ -65,3 +62,5 @@ Images: (1) Final render (2) Normals (3) Roughness (4) Wireframe
 	<img src="/images/rapier/SHR_reference_sheet.png">
 	<img src="/images/rapier/SHR_UV_layout.png">
 </div>
+
+
