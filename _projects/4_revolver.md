@@ -13,7 +13,7 @@ featured_image: "/images/revolver/sw629.02.png"
 	<img src="/images/revolver/sw629.02.png">
 	<img src="/images/revolver/sw629.03.png">
 	<img src="/images/revolver/sw629.04.png">
-	<img src="/images/revolver/sw629.wireframe.png">
+	<img src="/images/revolver/sw629.wireframe.PNG">
 
 </div>
 
