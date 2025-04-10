@@ -3,7 +3,7 @@ title: "Smith and Wesson Revolver (WIP)"
 subtitle: "Responsible for all modeling"
 date: 2024-06-02 00:00:00
 description: 
-featured_image: "/images/revolver/sw629.02.png"
+featured_image: "/images/revolver/sw629.thumb.png"
 ---
 
 ## Render collection
