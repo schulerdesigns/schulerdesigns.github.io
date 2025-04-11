@@ -1,6 +1,6 @@
 ---
 title: Resume
-subtitle: Last updated July, 2024
+subtitle: Last updated April, 2025
 description:
 featured_image: 
 ---
@@ -11,12 +11,10 @@ featured_image:
 ##### Revolver Model (WIP):
 
 * Developed high-poly subdivision model for baking.
-* Ensured proper topology for clean subdivision and accurate representation of mechanical details.
+* Created high-quality PBR textures based on reference images.
+* Maintained efficient polygon count to allow use in real-time applications.
 * Gathered significant reference to ensure proportional and functional accuracy to subject.
 * Applied critique to check compatibility with industry practice. 
-
-
-
 
 
 ##### Rapier Model
@@ -40,14 +38,19 @@ featured_image:
 ### Skills
 
 * Hard surface modeling and UV layout in Autodesk Maya
-* Procedural texture creation/application using Adobe Substance suite
-* Digital sculpting and retopology using ZBrush
+* PBR texture authoring using Adobe Substance suite
+* Hard surface modeling, sculpting, and retopology using ZBrush
 * Rendering and environment assembly in Unreal Engine 5
 * Obtaining and processing photo scans for model and texture creation.
 * Proficiency with Adobe Creative Suite 
 
 
+### Employment
 
+Purdue University- Student XR Artist \\
+* Developed models and textures for use in educational XR applications.
+* Maintained efficiency in polycount and texture space usage to ensure usability across multiple platforms.
+* Provided pipeline feedback and revision for implementation of art assets.
 
 ### Education
 
@@ -57,28 +60,6 @@ featured_image:
 *August 2021–Present* \\
 Bachelor of Science: Animation & Visual Effects Compositing \\
 GPA: 3.98 
-
-
-##### Homestead High School, Fort Wayne, IN
-
-*August 2017—May 2021*
-
-
-
-### Employment
-
-
-#### Kelley Automotive
-
-*May–August 2023* \\
-Car Wash Attendant 
-
-
-#### Kroger
-
-*May–August 2022* \\
-Deli Clerk
-
 
 &nbsp;
 
