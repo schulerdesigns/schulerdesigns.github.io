@@ -8,7 +8,7 @@ featured_image:
 
 ### Projects
 
-##### Revolver Model (WIP):
+##### Revolver Model
 
 * Developed high-poly subdivision model for baking.
 * Created high-quality PBR textures based on reference images.
@@ -47,7 +47,7 @@ featured_image:
 
 ### Employment
 
-Purdue University- Student XR Artist \\
+Purdue University- Student XR Artist
 * Developed models and textures for use in educational XR applications.
 * Maintained efficiency in polycount and texture space usage to ensure usability across multiple platforms.
 * Provided pipeline feedback and revision for implementation of art assets.
