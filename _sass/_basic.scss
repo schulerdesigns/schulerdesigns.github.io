@@ -1,460 +1,499 @@
-// - - - - - - - - - - - - - - - - - -
+// _sass/_basic.scss
+// ---
+// Provides foundational styles for the entire site, including global element resets,
+// default typography, interactive element styling, and layout helpers.
+// This file leverages CSS custom properties defined in _color-modes.scss for theming.
+// ---
 
-// Basics
 
-// - - - - - - - - - - - - - - - - - -
+// Global Element Styling
+// Sets up basic styling for the html and body elements, including default
+// background, text color, and font settings.
+// ---
 
-
-// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Basics
-
-html, body {
-	height: 100%;
+html {
+    height: 100%;
 }
 
 body {
-	background: $background-color;
-	font-family: $body-font;
-	font-weight: $regular-weight;
-	font-style: normal;
-	line-height: 1;
-	color: $text-medium-color;
+    background: var(--color-background-primary);
+    font-family: $body-font;
+    font-weight: $regular-weight;
+    font-style: normal;
+    line-height: 1; // Base line-height, often adjusted by typography settings below.
+    color: var(--color-text-secondary);
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
 }
 
 
-
-// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Typography
+// Typography
+// Defines default styling for headings (h1-h6), paragraphs (p), lists (ul, ol),
+// blockquotes, and other common text elements.
+// Includes responsive typography adjustments using predefined mixins.
+// ---
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: $title-font;
-	color: $text-dark-color;
+    font-family: $title-font;
+    color: var(--color-text-primary);
 
-	&:first-child {
-		margin-top: 0;
-	}
+    &:first-child {
+        margin-top: 0;
+    }
 }
 
 h1, .h1 {
-	font-size: $h1-small;
-	font-weight: $h1-weight;
-	line-height: $h1-lineheight;
-	letter-spacing: $h1-spacing;
+    font-size: $h1-small;
+    font-weight: $h1-weight;
+    line-height: $h1-lineheight;
+    letter-spacing: $h1-spacing;
 
-	@include mq(tabletp) {
-		font-size: $h1-medium;
-	}
+    @include mq(tabletp) {
+        font-size: $h1-medium;
+    }
 
-	@include mq(laptop) {
-		font-size: $h1-large;
-	}
+    @include mq(laptop) {
+        font-size: $h1-large;
+    }
 }
 
 h2, .h2 {
-	margin-top: 40px;
-	font-size: $h2-small;
-	font-weight: $h2-weight;
-	line-height: $h2-lineheight;
-	letter-spacing: $h2-spacing;
+    margin-top: 40px;
+    font-size: $h2-small;
+    font-weight: $h2-weight;
+    line-height: $h2-lineheight;
+    letter-spacing: $h2-spacing;
 
-	@include mq(tabletp) {
-		font-size: $h2-medium;
-	}
+    @include mq(tabletp) {
+        font-size: $h2-medium;
+    }
 
-	@include mq(laptop) {
-		font-size: $h2-large;
-	}
+    @include mq(laptop) {
+        font-size: $h2-large;
+    }
 }
 
 h3, .h3 {
-	margin-top: 40px;
-	font-size: $h3-small;
-	font-weight: $h3-weight;
-	line-height: $h3-lineheight;
-	letter-spacing: $h3-spacing;
+    margin-top: 40px;
+    font-size: $h3-small;
+    font-weight: $h3-weight;
+    line-height: $h3-lineheight;
+    letter-spacing: $h3-spacing;
 
-	@include mq(tabletp) {
-		font-size: $h3-medium;
-	}
+    @include mq(tabletp) {
+        font-size: $h3-medium;
+    }
 
-	@include mq(laptop) {
-		font-size: $h3-large;
-	}
+    @include mq(laptop) {
+        font-size: $h3-large;
+    }
 }
 
 h4, .h4 {
-	margin-top: 25px;
-	font-size: $h4-small;
-	font-weight: $h4-weight;
-	line-height: $h4-lineheight;
-	letter-spacing: $h4-spacing;
+    margin-top: 25px;
+    font-size: $h4-small;
+    font-weight: $h4-weight;
+    line-height: $h4-lineheight;
+    letter-spacing: $h4-spacing;
 
-	@include mq(tabletp) {
-		font-size: $h4-medium;
-	}
+    @include mq(tabletp) {
+        font-size: $h4-medium;
+    }
 
-	@include mq(laptop) {
-		font-size: $h4-large;
-	}
+    @include mq(laptop) {
+        font-size: $h4-large;
+    }
 }
 
 h5, .h5 {
-	margin-top: 15px;
-	font-size: $h5-small;
-	font-weight: $h5-weight;
-	line-height: $h5-lineheight;
-	letter-spacing: $h5-spacing;
+    margin-top: 15px;
+    font-size: $h5-small;
+    font-weight: $h5-weight;
+    line-height: $h5-lineheight;
+    letter-spacing: $h5-spacing;
 
-	@include mq(tabletp) {
-		font-size: $h5-medium;
-	}
+    @include mq(tabletp) {
+        font-size: $h5-medium;
+    }
 
-	@include mq(laptop) {
-		font-size: $h5-large;
-	}
+    @include mq(laptop) {
+        font-size: $h5-large;
+    }
 }
 
 h6, .h6 {
-	margin-top: 15px;
-	font-size: $h6-small;
-	font-weight: $h6-weight;
-	line-height: $h6-lineheight;
-	letter-spacing: $h6-spacing;
+    margin-top: 15px;
+    font-size: $h6-small;
+    font-weight: $h6-weight;
+    line-height: $h6-lineheight;
+    letter-spacing: $h6-spacing;
 
-	@include mq(tabletp) {
-		font-size: $h6-medium;
-	}
+    @include mq(tabletp) {
+        font-size: $h6-medium;
+    }
 
-	@include mq(laptop) {
-		font-size: $h6-large;
-	}
+    @include mq(laptop) {
+        font-size: $h6-large;
+    }
 }
 
 p, ul, ol {
-	margin-top: 15px;
-	font-size: $p-small;
-	font-weight: $p-weight;
-	line-height: $p-lineheight;
-	letter-spacing: $p-spacing;
+    margin-top: 15px;
+    font-size: $p-small;
+    font-weight: $p-weight;
+    line-height: $p-lineheight;
+    letter-spacing: $p-spacing;
 
-	@include mq(tabletp) {
-		font-size: $p-medium;
-	}
+    @include mq(tabletp) {
+        font-size: $p-medium;
+    }
 
-	@include mq(laptop) {
-		font-size: $p-large;
-	}
+    @include mq(laptop) {
+        font-size: $p-large;
+    }
 
-	strong {
-		font-weight: $bold-weight;
-	}
+    strong {
+        font-weight: $bold-weight;
+    }
 
-	&:first-child {
-		margin-top: 0;
-	}
+    &:first-child {
+        margin-top: 0;
+    }
 }
 
 ul, ol {
-	list-style-position: inside;
+    list-style-position: inside;
 }
 
 blockquote {
-	margin-top: 15px;
-	border-left: 2px solid $text-dark-color;
-	padding: 10px 0 10px 20px;
-	font-size: $blockquote-small;
-	font-weight: $blockquote-weight;
-	letter-spacing: $blockquote-spacing;
-	line-height: $blockquote-lineheight;
+    margin-top: 15px;
+    border-left: 2px solid var(--color-text-primary); // Using primary text color for border, consider a dedicated border variable if needed.
+    padding: 10px 0 10px 20px;
+    font-size: $blockquote-small;
+    font-weight: $blockquote-weight;
+    letter-spacing: $blockquote-spacing;
+    line-height: $blockquote-lineheight;
 
-	@include mq(tabletp) {
-		border-left-width: 3px;
-		padding: 15px 0 15px 30px;
-		font-size: $blockquote-medium;
-	}
+    @include mq(tabletp) {
+        border-left-width: 3px;
+        padding: 15px 0 15px 30px;
+        font-size: $blockquote-medium;
+    }
 
-	@include mq(laptop) {
-		border-left-width: 4px;
-		padding: 20px 0 20px 40px;
-		font-size: $blockquote-large;
-	}
+    @include mq(laptop) {
+        border-left-width: 4px;
+        padding: 20px 0 20px 40px;
+        font-size: $blockquote-large;
+    }
 
-	p {
-		font-size: $blockquote-small;
-		font-weight: $blockquote-weight;
-		letter-spacing: $blockquote-spacing;
-		line-height: $blockquote-lineheight;
+    p { // Styles for paragraphs within blockquotes, inheriting blockquote typography.
+        font-size: $blockquote-small;
+        font-weight: $blockquote-weight;
+        letter-spacing: $blockquote-spacing;
+        line-height: $blockquote-lineheight;
 
-		@include mq(tabletp) {
-			font-size: $blockquote-medium;
-		}
+        @include mq(tabletp) {
+            font-size: $blockquote-medium;
+        }
 
-		@include mq(laptop) {
-			font-size: $blockquote-large;
-		}
-	}
+        @include mq(laptop) {
+            font-size: $blockquote-large;
+        }
+    }
 }
 
-a {
-	text-decoration: none;
-	color: $text-dark-color;
-	font-weight: $bold-weight;
-	@include transition(all 0.15s ease-in-out);
 
-	&:hover {
-		color: $accent-color;
-	}
+// Interactive Elements
+// Styling for links, buttons, and other interactive UI components.
+// ---
+
+a {
+    text-decoration: none;
+    color: var(--color-text-primary);
+    font-weight: $bold-weight;
+    @include transition(all 0.15s ease-in-out);
+
+    &:hover {
+        color: var(--color-accent-primary);
+    }
 }
 
 .button {
-	display: inline-block;
-	padding: 9px 10px 10px;
-	font-size: 13px;
-	line-height: 1;
-	border: 2px solid $accent-color;
-	background: $accent-color;
-	color: $background-color;
-	font-weight: $button-weight;
-	letter-spacing: $button-spacing;
-	cursor: pointer;
+    display: inline-block;
+    padding: 9px 10px 10px;
+    font-size: 13px;
+    line-height: 1;
+    border: 2px solid var(--color-accent-primary);
+    background: var(--color-accent-primary);
+    color: var(--color-text-on-accent);
+    font-weight: $button-weight;
+    letter-spacing: $button-spacing;
+    cursor: pointer;
 
-	@include mq(tabletp) {
-		padding: 11px 20px 12px;
-		font-size: 15px;
-	}
+    @include mq(tabletp) {
+        padding: 11px 20px 12px;
+        font-size: 15px;
+    }
 
-	&:hover {
-		background: adjust-hue($accent-color,15%);
-		border-color: adjust-hue($accent-color,15%);
-		color: $background-color;
-	}
+    &:hover {
+        background: var(--color-accent-primary-hover);
+        border-color: var(--color-accent-primary-hover);
+        color: var(--color-text-on-accent);
+    }
 
-	svg {
-		margin-right: 5px;
+    svg { // Styling for SVGs inside buttons, if any.
+        margin-right: 5px;
 
-		&:last-child {
-			margin-right: 0;
-			margin-left: 5px;
-		}
+        &:last-child {
+            margin-right: 0;
+            margin-left: 5px;
+        }
 
-		@include mq(tabletp) {
-			margin-right: 8px;
+        @include mq(tabletp) {
+            margin-right: 8px;
 
-			&:last-child {
-				margin-right: 0;
-				margin-left: 8px;
-			}
-		}
-	}
+            &:last-child {
+                margin-right: 0;
+                margin-left: 8px;
+            }
+        }
+    }
 }
 
-.button--large {
-	padding: 15px 20px 16px;
-	font-size: 13px;
+.button--large { // Modifier for larger buttons.
+    padding: 15px 20px 16px;
+    font-size: 13px;
 
-	@include mq(tabletp) {
-		padding: 19px 40px 20px;
-		font-size: 17px;
-	}
+    @include mq(tabletp) {
+        padding: 19px 40px 20px;
+        font-size: 17px;
+    }
 }
 
-.button--light {
-	background: transparent;
-	border-color: $text-dark-color;
-	color: $text-dark-color;
+.button--light { // Modifier for light-styled buttons (e.g., outline buttons).
+    background: transparent;
+    border-color: var(--color-text-primary);
+    color: var(--color-text-primary);
 
-	&:hover {
-		background: $accent-color;
-		border-color: $accent-color;
-		color: $background-color;
-	}
+    &:hover {
+        background: var(--color-accent-primary);
+        border-color: var(--color-accent-primary);
+        color: var(--color-text-on-accent);
+    }
 }
 
-.button--overlay {
-	background: transparent;
-	border-color: $overlay-text-color;
-	color: $overlay-text-color;
+.button--overlay { // Modifier for buttons intended for use on overlays.
+    background: transparent;
+    border-color: var(--color-overlay-text);
+    color: var(--color-overlay-text);
 
-	&:hover {
-		background: $overlay-text-color;
-		border-color: $overlay-text-color;
-		color: $accent-color;
-	}
+    &:hover {
+        background: var(--color-overlay-text); // Background becomes the overlay text color on hover.
+        color: var(--color-accent-primary);    // Text becomes the accent color.
+                                              // Review this interaction with your chosen dark theme palette.
+    }
 }
+
+
+// Utility Styles
+// Styling for horizontal rules (hr) and text selection.
+// ---
 
 hr {
-	margin: 40px 0;
-	border: 0;
-	height: 2px;
-	background: $background-alt-color;
+    margin: 40px 0;
+    border: 0;
+    height: 2px;
+    background: var(--color-background-secondary);
 }
 
-::selection 	 { background: $accent-color; color: $background-color; }
-::-moz-selection { background: $accent-color; color: $background-color; }
+::selection {
+    background: var(--color-accent-primary);
+    color: var(--color-text-on-accent);
+}
+::-moz-selection { // Firefox specific.
+    background: var(--color-accent-primary);
+    color: var(--color-text-on-accent);
+}
 
 
-
-// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Page loading
+// Page Loading Animations
+// Styles related to the page loading indicator and transitions.
+// These styles might not directly use theme colors but are part of basic site presentation.
+// ---
 
 .page-loader {
-	display: none;
+    display: none; // Hidden by default, likely controlled by JavaScript.
 }
 
-.page {
-	@include transition(all 0.6s cubic-bezier(.87,-.41,.19,1.44));
+.page { // Wrapper for page content, used for loading transitions and main layout.
+    @include transition(all 0.6s cubic-bezier(.87,-.41,.19,1.44));
+    flex-grow: 1;
 }
 
-body.loading {
+body.loading { // Class applied to body during page load.
 
-	.loader {
-		opacity: 1;
-		visibility: visible;
-		@include transition(all 0.4s ease-in-out 1s);
-	}
+    .loader { // The loading animation element.
+        opacity: 1;
+        visibility: visible;
+        @include transition(all 0.4s ease-in-out 1s);
+    }
 
-	.page {
-		opacity: 0;
-		visibility: hidden;
-		@include transition(all 0.4s ease-in-out, transform 0s ease-in-out 0.4s);
-		@include translate(0,20px);
-	}
+    .page { // Fade out and move page content during loading.
+        opacity: 0;
+        visibility: hidden;
+        @include transition(all 0.4s ease-in-out, transform 0s ease-in-out 0.4s);
+        @include translate(0,20px);
+    }
 
-	.footer {
-		opacity: 0;
-		visibility: hidden;
-		@include transition(all 0.4s ease-in-out);
-	}
+    .footer { // Fade out footer during loading.
+        opacity: 0;
+        visibility: hidden;
+        @include transition(all 0.4s ease-in-out);
+    }
 }
 
-.loader {
-	position: fixed;
-	top: 50%;
-	left: 50%;
-	@include translate(-50%,-50%);
-	width: 60px;
-	height: 15px;
+.loader { // Styling for the loader animation itself.
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    @include translate(-50%,-50%);
+    width: 60px;
+    height: 15px;
 
-	opacity: 0;
-	visibility: hidden;
-	@include transition(all 0.2s ease-in-out);
+    opacity: 0;
+    visibility: hidden;
+    @include transition(all 0.2s ease-in-out);
 
-	svg {
-		width: 100%;
-		height: 100%;
-		fill: rgba($text-dark-color,0.2);
-	}
+    svg {
+        width: 100%;
+        height: 100%;
+        // Uses the primary text color with opacity.
+        // Ensure --color-text-primary is a solid color for opacity to work as expected.
+        fill: var(--color-text-primary);
+        opacity: 0.2;
+    }
 }
+
+
+// Layout Helpers
+// Basic structural styles for page elements and wrappers.
+// ---
 
 .page,
-.page__content {
-	float: left;
-	clear: both;
-	width: 100%;
+.page__content { // Ensures page and page content wrappers take full width.
+    float: left;
+    clear: both;
+    width: 100%;
+}
+
+section { // Default top margin for content sections, with responsive adjustments.
+    margin-top: 40px;
+
+    @include mq(tabletp) {
+        margin-top: 50px;
+    }
+
+    @include mq(tabletl) {
+        margin-top: 60px;
+    }
+
+    @include mq(laptop) {
+        margin-top: 80px;
+    }
+}
+
+.wrap { // Centered content wrapper with responsive max-width and padding.
+    position: relative;
+    margin: 0 auto;
+    padding: 0 30px; // Horizontal padding for smaller screens.
+    max-width: 500px; // Max-width for very small screens.
+
+    @include mq(tabletp) {
+        padding: 0; // Remove padding as max-width takes over.
+        max-width: 70%;
+    }
+
+    @include mq(tabletl) {
+        max-width: 65%;
+    }
+
+    @include mq(laptop) {
+        max-width: 60%;
+    }
 }
 
 
-
-// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Page sections
-
-section {
-	margin-top: 40px;
-
-	@include mq(tabletp) {
-		margin-top: 50px;
-	}
-
-	@include mq(tabletl) {
-		margin-top: 60px;
-	}
-
-	@include mq(laptop) {
-		margin-top: 80px;
-	}
-}
-
-.wrap {
-	position: relative;
-	margin: 0 auto;
-	padding: 0 30px;
-	max-width: 500px;
-
-	@include mq(tabletp) {
-		padding: 0;
-		max-width: 70%;
-	}
-
-	@include mq(tabletl) {
-		max-width: 65%;
-	}
-
-	@include mq(laptop) {
-		max-width: 60%;
-	}
-}
-
-
-
-// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Buy CTA
+// Call-to-Action (CTA) Element - "Buy CTA"
+// Fixed position CTA, likely for theme purchase or similar persistent link.
+// Colors for this element are hardcoded and may need separate theming if desired.
+// ---
 
 .buy-cta {
-	position: fixed;
-	bottom: 0;
-	right: 0;
+    position: fixed;
+    bottom: 0;
+    right: 0;
 }
 
 .buy-cta__link {
-	display: block;
-	position: relative;
-	width: 40px;
-	height: 40px;
-	background: #dc5b5d;
+    display: block;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background: #dc5b5d; // Specific brand color, not themed by default.
 
-	@include mq(tabletp) {
-		width: 60px;
-		height: 60px;
-	}
+    @include mq(tabletp) {
+        width: 60px;
+        height: 60px;
+    }
 
-	svg {
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		width: 20px;
-		height: 20px;
-		@include translate(-50%,-50%);
-		fill: #fff;
+    svg {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 20px;
+        height: 20px;
+        @include translate(-50%,-50%);
+        fill: #fff; // Icon color, not themed by default.
 
-		@include mq(tabletp) {
-			width: 30px;
-			height: 30px;
-		}
-	}
+        @include mq(tabletp) {
+            width: 30px;
+            height: 30px;
+        }
+    }
 
-	&:hover {
-
-		.buy-cta__text {
-			@include translate(0,0);
-			opacity: 1;
-		}
-	}
+    &:hover {
+        .buy-cta__text {
+            @include translate(0,0);
+            opacity: 1;
+        }
+    }
 }
 
 .buy-cta__text {
-	position: absolute;
-	top: 0;
-	right: 40px;
-	background: #dc5b5d;
-	padding: 14px 10px 13px 17px;
-	color: #fff;
-	font-size: 13px;
-	line-height: 1;
-	white-space: nowrap;
+    position: absolute;
+    top: 0;
+    right: 40px;
+    background: #dc5b5d; // Specific brand color.
+    padding: 14px 10px 13px 17px;
+    color: #fff; // Text color, not themed by default.
+    font-size: 13px;
+    line-height: 1;
+    white-space: nowrap;
 
-	@include transition(all 0.15s ease-in-out);
-	@include translate(0,20px);
-	opacity: 0;
+    @include transition(all 0.15s ease-in-out);
+    @include translate(0,20px);
+    opacity: 0;
 
-	@include mq(tabletp) {
-		right: 60px;
-		padding: 22px 14px 23px 25px;
-		font-size: 15px;
-		@include translate(0,30px);
-	}
+    @include mq(tabletp) {
+        right: 60px;
+        padding: 22px 14px 23px 25px;
+        font-size: 15px;
+        @include translate(0,30px);
+    }
+}
+
+body.fluidbox-noscroll {
+    overflow: hidden;
 }

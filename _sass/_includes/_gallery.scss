@@ -1,182 +1,189 @@
 // - - - - - - - - - - - - - - - - - -
-
 // Gallery
-
+// Styles for image galleries, supporting both carousel and grid layouts.
 // - - - - - - - - - - - - - - - - - -
 
 .gallery {
-	visibility: hidden;
-	position: relative;
-	max-width: 85%;
-	margin: 20px auto;
+    visibility: hidden; // Initially hidden, shown with .gallery--on
+    position: relative;
+    max-width: 85%; // Default maximum width of the gallery container
+    margin: 20px auto; // Default margins
 
-	@include mq(tabletp) {
-		margin: 30px auto;
-	}
+    // Responsive margins for tablet portrait and larger
+    @include mq(tabletp) {
+        margin: 30px auto;
+    }
 
-	@include mq(laptop) {
-		margin: 40px auto;
-	}
+    // Responsive margins for laptop and larger
+    @include mq(laptop) {
+        margin: 40px auto;
+    }
 
-	&:first-child {
-		margin-top: 0;
-	}
+    // Remove top margin if it's the first child element
+    &:first-child {
+        margin-top: 0;
+    }
 }
 
+// Class to make the gallery visible (typically added via JavaScript)
 .gallery--on {
-	visibility: visible;
+    visibility: visible;
 }
 
+// Styles for individual gallery items
 .gallery__item {
-	position: relative;
+    position: relative;
 
-	img {
-		width: 100%;
-	}
+    img {
+        width: 100%; // Ensure images are responsive within their container
+        display: block; // Remove extra space below images
+    }
 }
 
-
-
-// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Carousel
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+// Carousel Gallery
+// Specific styles for galleries displayed as a carousel (e.g., using Owl Carousel).
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 .gallery--carousel {
 
-	.gallery__wrap {
+    .gallery__wrap {
+        // Wrapper for carousel items if needed by the JS plugin
+    }
+    
+    .gallery__item {
+        // Specific styles for items within a carousel, if any
+    }
 
-	}
-	
-	.gallery__item {
+    .gallery__item__link {
+        display: block;
+        pointer-events: none; // Links might not be directly clickable in a carousel item
+    }
 
-	}
+    .gallery__item__image {
+        // Styles for images within a carousel item, if different from base
+    }
 
-	.gallery__item__link {
-		display: block;
-		pointer-events: none;
-	}
+    // Hide default navigation arrows if custom or plugin-based ones are used
+    .owl-nav {
+        display: none;
+    }
 
-	.gallery__item__image {
+    // Styling for carousel pagination dots
+    .owl-dots {
+        margin-top: 20px;
+        text-align: center;
 
-	}
+        .owl-dot {
+            display: inline-block;
+            margin: 0 3px; // Spacing between dots
+            width: 12px;
+            height: 12px;
+            border: 0;
+            border-radius: 100%; // Circular dots
+            background: var(--color-carousel-dot); // Replaced $text-light-color (via new CSS var)
+            @include transition(all 0.2s ease-in-out); // Smooth transition for color change
+            cursor: pointer;
+            outline: none;
 
-	.owl-nav {
-		display: none;
-	}
-
-	.owl-dots {
-		margin-top: 20px;
-		text-align: center;
-
-		.owl-dot {
-			display: inline-block;
-			margin: 0 3px;
-			width: 12px;
-			height: 12px;
-			border: 0;
-			border-radius: 100%;
-			background: $text-light-color;
-			@include transition(all 0.2s ease-in-out);
-			cursor: pointer;
-			outline: none;
-
-			&.active {
-				background: $accent-color;
-			}
-		}
-	}
+            // Style for the active dot
+            &.active {
+                background: var(--color-accent-primary); // Replaced $accent-color (uses theme accent)
+            }
+        }
+    }
 }
 
-
-
-// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Grid
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+// Grid Gallery
+// Styles for galleries displayed in a grid layout.
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 .gallery--grid {
 
-	.gallery__wrap {
-		margin-left: -$grid-spacing/2;
-		margin-right: -$grid-spacing/2;
-	}
-	
-	.gallery__item {
-		float: left;
-		width: 50%;
-		padding: $grid-spacing/2;
-	}
+    .gallery__wrap {
+        // Negative margins to counteract padding on items if $grid-spacing is used for gutters
+        margin-left: -$grid-spacing / 2; 
+        margin-right: -$grid-spacing / 2;
+        
+        // Clearfix to contain floated gallery items
+        &:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+    }
+    
+    .gallery__item {
+        float: left; // Align items in a grid
+        padding: $grid-spacing / 2; // Gutter spacing between items
 
-	.gallery__item__link {
-		display: block;
-		cursor: zoom-in;
-	}
+        // Mobile-first: Default to single column on small screens
+        width: 100%;
 
-	&[data-columns="3"] {
+        // Tablet Portrait and up: Default to two columns
+        @include mq(tabletp) {
+            width: 50%;
+        }
+    }
 
-		.gallery__item {
-			width: 33.33%;
-		}
-	}
+    .gallery__item__link {
+        display: block;
+        cursor: zoom-in; // Indicate images can be enlarged (e.g., by a lightbox)
+    }
 
-	&[data-columns="4"] {
+    // Styles for galleries explicitly set to 3 columns
+    &[data-columns="3"] {
+        .gallery__item {
+            // Tablet Portrait and up: 3 columns
+            @include mq(tabletp) {
+                width: 33.33%;
+            }
+        }
+    }
 
-		.gallery__item {
-			width: 33.33%;
-		}
+    // Styles for galleries explicitly set to 4 columns
+    &[data-columns="4"] {
+        .gallery__item {
+            // Tablet Portrait and up: 3 columns (as per original intermediate step)
+            @include mq(tabletp) {
+                width: 33.33%;
+            }
+            // Larger Tablets/Small Laptops: 4 columns
+            @include mq(tabletl) { // Assuming tabletl is larger than tabletp
+                width: 25%;
+            }
+        }
+    }
 
-		@include mq(tabletp) {
+    // Styles for galleries explicitly set to 5 columns
+    &[data-columns="5"] {
+        .gallery__item {
+            @include mq(tabletp) {
+                width: 33.33%; // 3 columns on smaller tablets
+            }
+            @include mq(tabletl) {
+                width: 25%;    // 4 columns on larger tablets
+            }
+            @include mq(laptop) { // Laptops and up: 5 columns
+                width: 20%;
+            }
+        }
+    }
 
-			.gallery__item {
-				width: 25%;
-			}
-		}
-	}
-
-	&[data-columns="5"] {
-
-		.gallery__item {
-			width: 33.33%;
-		}
-
-		@include mq(tabletp) {
-
-			.gallery__item {
-				width: 25%;
-			}
-		}
-
-		@include mq(tabletl) {
-
-			.gallery__item {
-				width: 20%;
-			}
-		}
-	}
-
-	&[data-columns="6"] {
-
-		.gallery__item {
-			width: 33.33%;
-		}
-
-		@include mq(tabletp) {
-
-			.gallery__item {
-				width: 25%;
-			}
-		}
-
-		@include mq(tabletl) {
-
-			.gallery__item {
-				width: 20%;
-			}
-		}
-
-		@include mq(laptop) {
-
-			.gallery__item {
-				width: 16.66%;
-			}
-		}
-	}
+    // Styles for galleries explicitly set to 6 columns
+    &[data-columns="6"] {
+        .gallery__item {
+            @include mq(tabletp) {
+                width: 33.33%; // 3 columns on smaller tablets
+            }
+            @include mq(tabletl) {
+                width: 25%;    // 4 columns on larger tablets
+            }
+            // Laptops and up: 6 columns
+            @include mq(laptop) {
+                width: 16.66%;
+            }
+        }
+    }
 }
-
-
-

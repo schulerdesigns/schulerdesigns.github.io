@@ -29,10 +29,10 @@
 	width: 30px;
 	height: 30px;
 	border-radius: 100%;
-	background: $text-light-color;
+	background: var(--color-text-on-dark-elements); // Replaced $text-light-color
 	font-size: 17px;
 	line-height: 1;
-	color: $background-color;
+	color: var(--color-background-primary);      // Replaced $background-color
 
 	@include mq(tabletp) {
 		width: 40px;
@@ -48,7 +48,7 @@
 	}
 
 	&:hover {
-		background: $accent-color;
-		color: $background-color;
+		background: var(--color-accent-primary);   // Replaced $accent-color
+		color: var(--color-text-on-accent);        // Replaced $background-color with appropriate on-accent color
 	}
 }

@@ -1,0 +1,35 @@
+# Jekyll output folder
+_site/
+
+# Sass cache
+.sass-cache/
+
+# Jekyll metadata
+.jekyll-metadata
+
+# Bundler
+# Ignore gems managed by Bundler and stored in the vendor/bundle directory
+vendor/bundle/
+
+# Node.js dependencies (if you ever use npm/yarn for frontend assets)
+# node_modules/
+
+# Common OS-generated files
+.DS_Store
+Thumbs.db
+
+# Common editor/IDE folders (optional, add if you use these)
+# .vscode/
+# .idea/
+# .project
+# .classpath
+# *.sublime-workspace
+# *.sublime-project
+
+# Log files
+*.log
+
+# Temporary files
+*~
+*.swp
+*.swo

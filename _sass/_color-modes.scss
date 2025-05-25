@@ -1,0 +1,99 @@
+// _sass/_color-modes.scss
+// ---
+// Defines CSS custom properties for site-wide color theming,
+// including support for automatic light and dark modes based on user's system preference.
+// ---
+
+// This file assumes that SCSS variables (e.g., $background-color, $text-dark-color, $accent-color, $overlay-opacity)
+// are available globally. These are typically defined in your main style.scss
+// through Jekyll's processing of _data/settings.yml.
+
+:root {
+    // - - - - - - - - - - - - - - - - - -
+    // Default Theme (Light Mode)
+    // These CSS custom properties are initialized with values from your SCSS variables,
+    // which are sourced from _data/settings.yml.
+    // - - - - - - - - - - - - - - - - - -
+
+    // Background Colors
+    --color-background-primary: #{$background-color};
+    --color-background-secondary: #{$background-alt-color};
+
+    // Text Colors
+    --color-text-primary: #{$text-dark-color};
+    --color-text-secondary: #{$text-medium-color};
+    --color-text-on-accent: #{$background-color};
+    --color-text-on-dark-elements: #{$text-light-color};
+    --color-placeholder-text: #{rgba($text-medium-color, 0.7)};
+
+    // Accent and Interaction Colors
+    --color-accent-primary: #{$accent-color};
+    --color-accent-primary-hover: #{darken($accent-color, 10%)};
+
+    // Border Colors
+    --color-border-primary: #{$border-color};
+
+    // Overlay Colors
+    --color-overlay-background: #{rgba($overlay-background-color, $overlay-opacity)};
+    --color-overlay-text: #{$overlay-text-color};
+    --color-overlay-accent: #{$overlay-accent-color};
+    --color-menu-overlay-background: #{rgba($overlay-background-color, 0.95)};
+
+    // Syntax Highlighting Colors
+    --color-syntax-background: #{$background-alt-color}; // Or a specific color like #f0f0f0
+    --color-syntax-text: #{$text-dark-color};       // Default text color in code blocks
+
+    // Plugin-specific Colors
+    --color-fluidbox-overlay: #{rgba($background-color, 0.85)};
+    --color-fluidbox-loader-accent: #{$accent-color};
+    --color-carousel-dot: #{rgba($text-medium-color, 0.4)};
+    // Active carousel dot will use --color-accent-primary
+
+    // Miscellaneous Colors
+    --color-error: #{$error-color};
+}
+
+// - - - - - - - - - - - - - - - - - -
+// Dark Mode Theme
+// These rules override the default theme when the user's system preference is set to dark.
+// - - - - - - - - - - - - - - - - - -
+@media (prefers-color-scheme: dark) {
+    :root {
+        // Background Colors
+        --color-background-primary: #1e1e1e;
+        --color-background-secondary: #2c2c2c;
+
+        // Text Colors
+        --color-text-primary: #f0f0f0;
+        --color-text-secondary: #c0c0c0;
+        --color-text-on-accent: #121212;
+        --color-text-on-dark-elements: #f0f0f0;
+        --color-placeholder-text: rgba(192, 192, 192, 0.5);
+
+        // Accent and Interaction Colors
+        --color-accent-primary: #{lighten($accent-color, 15%)};
+        --color-accent-primary-hover: #{$accent-color};
+
+        // Border Colors
+        --color-border-primary: #4a4a4a;
+
+        // Overlay Colors
+        --color-overlay-background: rgba(10, 10, 10, 0.85);
+        --color-overlay-text: #f5f5f5;
+        --color-overlay-accent: #{lighten($overlay-accent-color, 15%)};
+        --color-menu-overlay-background: rgba(20, 20, 20, 0.95);
+
+        // Syntax Highlighting Colors
+        --color-syntax-background: #2d2d2d;
+        --color-syntax-text: #cccccc;
+
+        // Plugin-specific Colors
+        --color-fluidbox-overlay: rgba(30, 30, 30, 0.85);
+        // --color-fluidbox-loader-accent will use the dark var(--color-accent-primary)
+        --color-carousel-dot: rgba(192, 192, 192, 0.3);
+        // Active carousel dot will use the dark var(--color-accent-primary)
+
+        // Miscellaneous Colors
+        --color-error: #{$error-color}; // Consider a specific dark theme error color if needed
+    }
+}

@@ -1,5 +1,25 @@
-.highlight .hll { background-color: #ffffcc }
-.highlight  { background: #f0f0f0; }
+// Apply themeable background and default text color for the entire highlight block
+.highlight {
+    background: var(--color-syntax-background);
+    color: var(--color-syntax-text); // Default text color for code
+    padding: 20px; // Added padding from .single .highlight .highlight
+
+    @include mq(tabletp) {
+        padding: 30px;
+    }
+
+    @include mq(laptop) {
+        padding: 40px;
+    }
+}
+
+// Original syntax token styles below.
+// These hardcoded token colors are optimized for a light background.
+// For full dark mode theming of syntax highlighting, these would also need
+// to be adjusted or a separate dark theme for syntax tokens would be required.
+
+.highlight .hll { background-color: #ffffcc } // This might need a variable if used
+// .highlight  { background: #f0f0f0; } // Replaced by the rule above
 .highlight .c { color: #60a0b0; font-style: italic } /* Comment */
 .highlight .err { border: 1px solid #FF0000 } /* Error */
 .highlight .k { color: #007020; font-weight: bold } /* Keyword */
