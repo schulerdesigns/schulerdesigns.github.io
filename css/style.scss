@@ -2,6 +2,7 @@
 ---
 
 // - - - - - - - - - - Foundations
+// Imports foundational SCSS partials like resets, mixins, and plugin styles.
 
 @import "_reset";
 @import "_mixins";
@@ -10,10 +11,11 @@
 
 
 // - - - - - - - - - - Variables
-
+// Defines SCSS variables using data from _data/settings.yml via Jekyll's Liquid templating.
+// These variables are used throughout the stylesheets.
 
 // Colors
-
+// Defines the primary color palette for the site.
 $background-color: {{ site.data.settings.color_settings.background_color }};
 $background-alt-color: {{ site.data.settings.color_settings.background_alt_color }};
 $border-color: {{ site.data.settings.color_settings.border_color }};
@@ -32,7 +34,7 @@ $error-color: {{ site.data.settings.color_settings.error_color }};
 
 
 // Fonts
-
+// Defines font families and weights.
 $body-font: {{ site.data.settings.font_settings.body_font }};
 $title-font: {{ site.data.settings.font_settings.title_font }};
 
@@ -41,7 +43,7 @@ $bold-weight: {{ site.data.settings.font_settings.bold_weight }};
 
 
 // Typography
-
+// Defines various typographic scales and properties for different text elements.
 $sitetitle-small: {{ site.data.settings.font_settings.site_title.small_size }}px;
 $sitetitle-medium: {{ site.data.settings.font_settings.site_title.medium_size }}px;
 $sitetitle-large: {{ site.data.settings.font_settings.site_title.large_size }}px;
@@ -127,17 +129,26 @@ $button-spacing: {{ site.data.settings.font_settings.buttons.letter_spacing }}em
 
 
 // Logo
+// Defines logo dimension variables.
 $logo-width: {{ site.data.settings.header_settings.logo_width }}px;
 $footer-logo-width: {{ site.data.settings.footer_settings.logo_width }}px;
 
 
 // Grid item
+// Defines variables related to grid layout items, such as portfolio or blog post grids.
 $overlay-opacity: {{ site.data.settings.grid_settings.overlay_opacity }};
 $grid-spacing: {{ site.data.settings.grid_settings.grid_spacing }}px;
 
 
+// - - - - - - - - - - Color Modes & Theming
+// Imports CSS custom properties for color theming and the media query for dark mode.
+// This enables dynamic switching between light and dark themes based on user preference.
+@import "_color-modes";
+
 
 // - - - - - - - - - - Global styles
+// Imports SCSS partials that define global site styles, including basic element styling,
+// layout components, and specific includes like header, footer, and content areas.
 
 @import "_basic";
 
@@ -153,8 +164,7 @@ $grid-spacing: {{ site.data.settings.grid_settings.grid_spacing }}px;
 
 
 // - - - - - - - - - - Section styles
+// Imports SCSS partials for specific content sections like portfolio and blog.
 
 @import "_includes/_portfolio";
 @import "_includes/_blog";
-
-

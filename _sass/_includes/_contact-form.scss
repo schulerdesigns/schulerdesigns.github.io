@@ -5,7 +5,7 @@
 // - - - - - - - - - - - - - - - - - -
 
 .contact-form {
-	background: $background-alt-color;
+	background: var(--color-background-secondary); // Replaced $background-alt-color
 	margin: 20px auto;
 	width: 100%;
 	max-width: 90%;
@@ -52,7 +52,7 @@
 
 	.contact-form__input,
 	.contact-form__textarea {
-		border-color: $error-color;
+		border-color: var(--color-error); // Replaced $error-color
 	}
 }
 
@@ -60,7 +60,7 @@
 	display: block;
 	font-size: $p-small;
 	font-weight: $bold-weight;
-	color: $text-medium-color;
+	color: var(--color-text-secondary); // Replaced $text-medium-color
 
 	@include mq(tabletp) {
 		font-size: $p-medium;
@@ -75,13 +75,13 @@
 .contact-form__textarea {
 	width: 100%;
 	margin-top: 8px;
-	border: 2px solid $border-color;
+	border: 2px solid var(--color-border-primary); // Replaced $border-color
 	border-radius: 2px;
 	padding: 10px 12px;
-	background: $background-color;
+	background: var(--color-background-primary); // Replaced $background-color
 	font-size: $p-small;
 	line-height: 1.4;
-	color: $text-dark-color;
+	color: var(--color-text-primary); // Replaced $text-dark-color
 	@include transition(all 0.15s ease-in-out);
 
 	@include mq(tabletp) {
@@ -95,21 +95,26 @@
 
 	&:focus {
 		outline: none;
-		border-color: $accent-color;
+		border-color: var(--color-accent-primary); // Replaced $accent-color
 	}
 }
 
+// Placeholder color now uses a CSS custom property
 ::-webkit-input-placeholder {
-	color: lighten($text-light-color,15%);
+	color: var(--color-placeholder-text);
+    opacity: 1; // Ensure opacity is explicitly set if needed
 }
 ::-moz-placeholder {
-	color: lighten($text-light-color,15%);
+	color: var(--color-placeholder-text);
+    opacity: 1;
 }
 :-ms-input-placeholder {
-	color: lighten($text-light-color,15%);
+	color: var(--color-placeholder-text);
+    opacity: 1;
 }
 :-moz-placeholder {
-	color: lighten($text-light-color,15%);
+	color: var(--color-placeholder-text);
+    opacity: 1;
 }
 
 .contact-form__textarea {

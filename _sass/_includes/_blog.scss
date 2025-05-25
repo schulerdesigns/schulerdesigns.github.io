@@ -48,7 +48,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background: rgba($overlay-background-color, $overlay-opacity);
+	background: var(--color-overlay-background); // Replaced rgba($overlay-background-color, $overlay-opacity)
 
 	opacity: 0;
 	visibility: hidden;
@@ -60,7 +60,7 @@
 }
 
 .blog-post__title {
-	color: $overlay-text-color;
+	color: var(--color-overlay-text); // Replaced $overlay-text-color
 	font-size: $grid-item-title-small;
 	font-weight: $grid-item-title-weight;
 	letter-spacing: $grid-item-title-spacing;
@@ -76,7 +76,8 @@
 
 .blog-post__subtitle {
 	margin-top: 5px;
-	color: rgba($overlay-text-color, 0.7);
+	color: var(--color-overlay-text); // Replaced rgba($overlay-text-color, 0.7)
+    opacity: 0.7; // Apply opacity separately
 	font-size: $grid-item-subtitle-small;
 	font-weight: $grid-item-subtitle-weight;
 	letter-spacing: $grid-item-subtitle-spacing;
@@ -91,7 +92,7 @@
 }
 
 .pagination {
-
+    // Button styles within pagination should already be themed via .button class
 }
 
 .pagination__prev {

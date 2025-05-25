@@ -9,87 +9,89 @@
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Footer
 
 .footer {
-	@include transition(all 0.4s ease-in-out 0.8s);
-	padding: 40px 0;
+    @include transition(all 0.4s ease-in-out 0.8s);
+    padding: 40px 0;
 
-	@include mq(tabletp) {
-		padding: 50px 0;
-	}
+    @include mq(tabletp) {
+        padding: 50px 0;
+    }
 
-	@include mq(tabletl) {
-		padding: 60px 0;
-	}
+    @include mq(tabletl) {
+        padding: 60px 0;
+    }
 
-	@include mq(laptop) {
-		padding: 80px 0;
-	}
+    @include mq(laptop) {
+        padding: 80px 0;
+    }
 }
 
 .footer__logo {
-	display: block;
-	width: $footer-logo-width;
+    display: block;
+    width: $footer-logo-width;
+    // Assuming SVG or image that adapts or doesn't need color change
 }
 
 .footer__title {
-	font-size: $sitetitle-small;
-	font-weight: $sitetitle-weight;
-	letter-spacing: $sitetitle-spacing;
-	line-height: 1;
-	color: $text-medium-color;
+    font-size: $h3-small;
+    font-weight: $sitetitle-weight;
+    letter-spacing: $sitetitle-spacing;
+    line-height: $h3-small;
+    color: var(--color-text-secondary);
 
-	&:hover {
-		color: $text-dark-color;
-	}
+    &:hover {
+        color: var(--color-text-primary);
+    }
 
-	@include mq(tabletp) {
-		font-size: $sitetitle-medium;
-	}
+    @include mq(tabletp) {
+        font-size: $h3-small;
+    }
 
-	@include mq(laptop) {
-		font-size: $sitetitle-large;
-	}
+    @include mq(laptop) {
+        font-size: $h3-medium;
+    }
 }
 
-.footer__text {
-	color: $text-light-color;
+
+.footer__text { // Generic text in footer
+    color: var(--color-text-secondary);
 }
 
 .footer__copyright {
-	display: block;
-	margin-top: 10px;
-	font-size: 13px;
-	color: $text-light-color;
+    display: block;
+    margin-top: 10px;
+    font-size: 13px;
+    color: var(--color-text-secondary);
 
-	a {
-		margin-left: 10px;
-		color: $text-light-color;
-		font-weight: $regular-weight;
+    a {
+        margin-left: 10px;
+        color: var(--color-text-secondary);
+        font-weight: $regular-weight;
 
-		&:hover {
-			color: $text-medium-color;
-		}
-	}
+        &:hover {
+            color: var(--color-accent-primary);
+        }
+    }
 
-	span {
-		margin-top: 10px;
-		display: inline-block;
-	}
+    span {
+        margin-top: 10px;
+        display: inline-block;
+    }
 
-	@include mq(tabletp) {
+    @include mq(tabletp) {
 
-		span {
-			margin-top: 0;
-		}
-	}
+        span {
+            margin-top: 0;
+        }
+    }
 }
 
-.footer .socials {
-	margin-top: 25px;
+.footer .socials { // Socials are styled in _socials.scss
+    margin-top: 25px;
 
-	@include mq(laptop) {
-		position: absolute;
-		top: 0;
-		right: 0;
-		margin-top: 0;
-	}
+    @include mq(laptop) {
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin-top: 0;
+    }
 }
